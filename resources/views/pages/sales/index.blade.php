@@ -87,7 +87,7 @@
                         success: function(response) {
                             console.log(response);
                             $('#sale_name').text(response.name)
-                            $('#sale_email').text(response.name)
+                            $('#sale_email').text(response.email)
                             $('#sale_telephone').text(response.Telephone)
                             $('#sale_joined_date').text(response.joint_date)
                             $('#sale_comments').text(response.comments)
